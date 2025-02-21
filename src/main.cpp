@@ -10,6 +10,6 @@ int main() {
 	std::cin >> a >> b;
 	double sum = add(a, b);
 	double subst = sub(a, b);
-	std::cout << sum << subst;
+	std::cout << sum << subst << "Привет";
 
 }

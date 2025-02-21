@@ -1,0 +1,46 @@
+# Игнорировать временные файлы сборки
+build/
+out/
+bin/
+obj/
+
+# Игнорировать файлы, созданные Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.pdb
+*.idb
+*.ilk
+*.log
+*.tlog
+*.db
+*.opendb
+
+# Игнорировать скомпилированные бинарные файлы
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.obj
+*.o
+
+# Игнорировать кэш CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Игнорировать пользовательские настройки
+*.user
+*.userprefs
+
+# Игнорировать резервные копии и временные файлы
+*~
+*.bak
+*.tmp
